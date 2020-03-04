@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.kofigyan.stateprogressbar.StateProgressBar
+        android:id="@+id/stateProgressbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:spb_currentStateNumber="one"
+        app:spb_maxStateNumber="two"
+        app:spb_stateBackgroundColor="#BDBDBD"
+        app:spb_stateForegroundColor="#009688"
+        app:spb_stateNumberBackgroundColor="#808080"
+        app:spb_stateNumberForegroundColor="#eeeeee"
+        app:spb_currentStateDescriptionColor="#009688"
+        app:spb_stateDescriptionColor="#808080"
+        app:spb_animateToCurrentProgressState="true"
+        app:spb_checkStateCompleted="true"
+        />
+
+
+  <FrameLayout
+      android:id="@+id/frameLayId"
+      android:layout_width="match_parent"
+      android:layout_height="400dp"
+
+      />
+
+<!--    <Button-->
+<!--        android:id="@+id/nextBtnId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Next"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:textColor="#ffff"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+
+</LinearLayout>

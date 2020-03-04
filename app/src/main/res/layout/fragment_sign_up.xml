@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp"
+    tools:context=".SignUpFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+    <EditText
+        android:id="@+id/nameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/phoneId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Number"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/passwordId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        />
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/LogoId"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/newgen_logo"-->
+
+<!--        />-->
+
+    <Button
+        android:id="@+id/nextBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
